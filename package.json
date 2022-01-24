@@ -1,0 +1,25 @@
+{
+  "name": "dont_die",
+  "version": "0.0.1",
+  "description": "run around. collect the thing. don't die",
+  "repository": "https://github.com/thegoobs/dont_die.git",
+  "author": "thegoobs <guthrieschoolar95@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack serve --open"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "css-loader": "^6.5.1",
+    "eslint": "^8.7.0",
+    "html-webpack-plugin": "^5.5.0",
+    "prettier": "^2.5.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.3"
+  },
+  "dependencies": {
+    "pixi.js": "^6.2.1"
+  }
+}
